@@ -12,6 +12,14 @@ code {
     monospace;
 }
 
+.propic {
+  border-radius: 10px;
+  width: 400px;
+  height: 580px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+  margin-bottom: 20px;
+}
+
 
 .d-card {
   margin: 20px;

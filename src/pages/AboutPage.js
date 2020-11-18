@@ -2,6 +2,7 @@ import React from 'react';
 import Content from '../components/Content';
 import Hero from '../components/Hero';
 
+
 const AboutPage = (props) => {
     
 
@@ -10,6 +11,8 @@ const AboutPage = (props) => {
             <Hero title={props.title} />
 
             <Content>
+            <img className="propic" src={props.propic} alt='profile picture' />
+
             <p>Hello, my name is David. I'm a full stack engineer with experience in React, Redux, Vanilla Javascript, Ruby, Ruby on Rails, PostGreSQL, and Node.js.</p>
 
             <p>My dream is to one day start my own coffee business and become an entrepreneur.</p>
