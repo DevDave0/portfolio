@@ -26,6 +26,15 @@ class ContactPage extends React.Component {
             [name]: value
         })
     }
+
+
+    handleSubmit = (event) => {
+        event.preventDefault();
+        this.setState({
+            disabled: true,
+            emailSent: false
+        })
+    }
     
 
 

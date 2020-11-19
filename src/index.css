@@ -14,8 +14,8 @@ code {
 
 .propic {
   border-radius: 10px;
-  width: 400px;
-  height: 580px;
+  width: 700px;
+  height: 900px;
   box-shadow: 0px 0px 3px 1px #ccc;
   margin-bottom: 20px;
 }
@@ -45,4 +45,16 @@ code {
 .d-card-sub-title {
   font-size: 16px;
   margin: 0px;
+}
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+
+}
+
+.error-msg {
+  color: #EE6352;
+  padding: 10px 15px;
+  
 }
